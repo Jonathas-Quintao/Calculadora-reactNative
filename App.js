@@ -17,8 +17,8 @@ const initialState = {
 export default class App extends Component {
   state = {...initialState}
 
+  
   addDigit = n =>{
-   
 
     const clearDisplay = this.state.displayValue === '0'
     || this.state.clearDisplay
