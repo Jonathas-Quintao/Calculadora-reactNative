@@ -2,6 +2,7 @@ import React from 'react';
 import { StyleSheet, Text, Dimensions, TouchableHighlight } from 'react-native';
 
 
+
 export default props => {
     const stylesButton = [styles.button]
     if(props.double) stylesButton.push(styles.buttonDouble)
@@ -14,7 +15,6 @@ export default props => {
         </TouchableHighlight>
     )
 }
-
 
 
 
